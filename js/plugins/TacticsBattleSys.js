@@ -2392,7 +2392,7 @@ Imported.TacticsBattleSys = true;
                             if (robbedUnit.targetRange($gameMap.event(this.eventId())) <= parseInt(field)) {
                                 switch (paramId) {
                                     case 0:
-                                        value += Math.round((value + this.paramBase(paramId)) * 20 / 100);
+                                        value += Math.round((value + this.paramBase(paramId)) * 40 / 100);
                                         break;
                                     case 2:
                                     case 3:
